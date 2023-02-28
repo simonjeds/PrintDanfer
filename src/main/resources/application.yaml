@@ -1,0 +1,17 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /danfe-printer
+    application-display-name: DanfePrinter
+
+spring:
+  application:
+    name: DanfePrinter
+
+microservices:
+  sap:
+    po:
+      base-url: https://sap-po.araujo.com.br:44300/RESTAdapter/
+      username: ARAUJO_ECOMMERCE
+      password: pop123!@#
+
